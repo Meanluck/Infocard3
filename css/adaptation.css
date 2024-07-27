@@ -1,93 +1,114 @@
-@media only screen and (max-width:800px){
-    nav,main,footer{
-      width: 100%;
+@media (max-width:800px) {
+
+    nav,
+    main,
+    footer {
+        width: 100%;
     }
+
     /* nav */
-    nav{
+    nav {
         height: 60px;
     }
-    .navi div{
+
+    .navi div {
         margin-left: 10px;
     }
-    .navi a{
+
+    .navi a {
         font-size: 20px;
         margin-left: 10px;
     }
-    .name{
+
+    .name {
         font-size: 20px;
         margin-right: 45px;
     }
-    .navi p{
+
+    .navi p {
         font-size: 20px;
         margin-left: 15px;
 
     }
+
     /* main1 */
-    .main1{
+    .main1 {
         height: 600px;
     }
-    .main1 img{
-        width: 300px;
-        margin-left: 70px;
-        margin-top: 93px;
+
+    .main1 img {
+        display: none;
     }
-    .main1 h1{
+
+    .main1 h1 {
         margin-right: 70px;
         font-size: 30px;
         margin-top: 100px;
     }
-    .main1 p{
+
+    .main1 p {
         margin-right: 100px;
         margin-top: 3px;
         width: 200px;
-        font-size: 13px;   
+        font-size: 13px;
     }
+
     /* main2 */
-    .main2{
+    .main2 {
         height: 900px;
     }
-    .main2 h1{
+
+    .main2 h1 {
         margin-top: 50px;
         margin-left: 50px;
         margin-right: 50px;
+
     }
-    .main2 img{
+
+    .main2 img {
         width: 100px;
         margin: 40px;
     }
-    .main2img{
+
+    .main2img {
         width: 200px;
         height: 300px;
         border-radius: 15px;
     }
-    .main2 p{
+
+    .main2 p {
         width: 150px;
         font-size: 15px;
         margin-left: 30px;
     }
+
     /* main3 */
-    .main3{
+    .main3 {
         height: 900px;
     }
-    .main3 h1{
+
+    .main3 h1 {
         margin-left: 100px;
         margin-top: 50px;
         font-size: 25px;
         width: 5000px;
     }
-    .main3 p{
+
+    .main3 p {
         margin-left: 100px;
         margin-top: 3px;
         width: 300px;
         font-size: 20px;
     }
-    .list{
+
+    .list {
         margin-left: 100px;
 
     }
-    .main3 img{
+
+    .main3 img {
         width: 500px;
-        top: 2230px;
-        right: 20px;
+
+        margin-left: 100px;
     }
-  }
+}

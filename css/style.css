@@ -1,40 +1,19 @@
 *{
     margin: 0;
+    padding: 0;
+    border: 0;
 }
 body{
     background-color: white;
 }
-a{
+*{
     text-decoration: none;
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
 }
-p{
-    font-family: "Oswald", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-}
-h1{
-    font-family: "Oswald", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-}
-h2{
-    font-family: "Oswald", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-}
-a{
-    font-family: "Oswald", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-}
+
 
 /*        */
 /* razdel */
@@ -54,10 +33,12 @@ nav{
     background-color: black;
     width: 100%;
     height: 80px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
-.navi div{
-    margin-left: 420px;
-}
+
 .navi a{
     color: white;
     font-size: 22px;
@@ -71,7 +52,7 @@ nav{
     color: white;
     font-size: 60px;
     display: inline-block;
-    margin-right: 350px;
+
 }
 .navi p{
     color: white;
@@ -85,28 +66,33 @@ nav{
 /* main 1 */
 /*        */
 .main1{
-    height: 776px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.main1>div{
+    display: flex;
+    flex-direction: column;
+    margin-block: auto;
 }
 .main1 img{
-    width: 400px;
+    height: 700px;
     margin-top: 100px;
-    margin-left: 290px;
     display: block;
     float: left;
 }
 main h1{
     display: block;
     float: right;
-    margin-right: 570px;
-    margin-top: 182px;
+    
     margin-bottom: 50px;
 }
 main p{
     display: block;
     float: right;
-    margin-right: 450px;
+
     margin-top: 3px;
-    width: 500px;
+    
     font-size: 18px;
 }
 
@@ -114,14 +100,13 @@ main p{
 /* main 2 */
 /*        */
 .main2{
-    height: 900px;
+    padding-block: 100px;
 }
 .main2 h1{
-    margin-top: 100px;
-    margin-left: 700px;
-    margin-right: 650px;
+
     width: auto;
     display: inline;
+    text-wrap: nowrap;
 }
 .main2 img{
     width: 220px;
@@ -182,10 +167,7 @@ main p{
 }
 .main3 img{
     width: 700px;
-    margin-right: 100px;
-    position: absolute;
-    top: 2090px;
-    right: 30px;
+
     border-radius: 50px;
     box-shadow:0 0 20px black;
 }
